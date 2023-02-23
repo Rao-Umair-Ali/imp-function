@@ -44,3 +44,23 @@ add= sum ;
 }
 
 */
+
+/*------------------ even and odd list by loop ------------------
+int main() {
+   int number ;
+  cout<<"enter number for adding even number "<<endl;
+  cin>>number;
+  int repeat = 0;
+
+  while(repeat<=number ){
+   if((repeat%2)==0){
+     cout<<"even number : "<<repeat<<endl;
+     
+   }
+    else {
+     cout<< "odd number :"<<repeat<<endl;
+    }
+    repeat=repeat+1;
+    }                             
+        
+*/
