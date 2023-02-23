@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+
+/*-------------------hello world--------------
+int main() {
+  cout<<"hello world"<<endl;
+}
+*/
+
+/*------------------numbers------------------
+
+int main() {
+int number ;
+  int repeat=0;
+  cout<<"enter a number "<<endl;
+  cin>>number ;
+  while (repeat < number ){
+    repeat=repeat+1;
+    cout<<repeat <<" ";
+  }
+}*/
