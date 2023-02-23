@@ -64,3 +64,25 @@ int main() {
     }                             
         
 */
+/*------------------ pattern type = 1------------------
+int main() {
+   int number ;
+  cout<<"enter number for pattern "<<endl;
+  cin>>number;
+  int row = 1;
+ 
+
+  while(row<=number ){
+     int column=1;
+   while(column<=number){
+     cout<<":)";
+     column=column+1;
+     
+   } 
+  
+   cout<<endl;
+    row = row+1;
+  }
+                                   
+           
+}*/
