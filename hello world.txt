@@ -8,7 +8,7 @@ int main() {
 }
 */
 
-/*------------------numbers------------------
+/*------------------numbers by loop ------------------
 
 int main() {
 int number ;
@@ -19,4 +19,28 @@ int number ;
     repeat=repeat+1;
     cout<<repeat <<" ";
   }
+
 }*/
+
+/*------------------ add numbers by loop ------------------
+
+int main() {
+int number;
+  cout<<"give me a number "<<endl;
+  cin>> number;
+  
+int repeat = 0 ; 
+int sum=0;
+int add ;
+  while (repeat < number ){
+  repeat = repeat   + 1;
+  sum = repeat  + sum;
+  cout<< sum <<" "<<endl;
+  }
+add= sum ;
+  cout<<"= "<<endl;
+  cout<<add<<endl;
+  
+}
+
+*/
