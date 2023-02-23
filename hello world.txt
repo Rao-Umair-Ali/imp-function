@@ -86,3 +86,21 @@ int main() {
                                    
            
 }*/
+
+
+/*------------------ pattern type = 2------------------
+/* int main() {
+   int number ;
+  cout<<"enter number for pattern "<<endl;
+  cin>>number;
+  int row = 0;
+  while(row<number ){
+     int column=0;
+   while(column<number){
+     cout<<row+1;
+     column=column+1;
+     } 
+  cout<<endl;
+    row = row+1;
+  }
+  }*/
