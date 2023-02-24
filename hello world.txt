@@ -89,7 +89,7 @@ int main() {
 
 
 /*------------------ pattern type = 2------------------
-/* int main() {
+ int main() {
    int number ;
   cout<<"enter number for pattern "<<endl;
   cin>>number;
@@ -104,3 +104,20 @@ int main() {
     row = row+1;
   }
   }*/
+
+/*------------------ pattern type = 3------------------
+
+int main() {
+int number;
+  cin >>number;
+  int i=0;
+  while(i<number){
+    int j=0;
+    while(j<number){
+      cout<<number-j;
+      j=j+1;
+    }
+cout<<endl;
+    i=i+1;
+  }
+}*/
