@@ -65,6 +65,12 @@ int main() {
         
 */
 /*------------------ pattern type = 1------------------
+:):):):):)
+:):):):):)
+:):):):):)
+:):):):):)
+:):):):):)
+
 int main() {
    int number ;
   cout<<"enter number for pattern "<<endl;
@@ -89,6 +95,12 @@ int main() {
 
 
 /*------------------ pattern type = 2------------------
+11111
+22222
+33333
+44444
+55555
+
  int main() {
    int number ;
   cout<<"enter number for pattern "<<endl;
@@ -106,6 +118,11 @@ int main() {
   }*/
 
 /*------------------ pattern type = 3------------------
+54321
+54321
+54321
+54321
+54321
 
 int main() {
 int number;
@@ -123,12 +140,15 @@ cout<<endl;
 }*/
 
 
-int main() {
-int n;
-cin>>n;
-int i=1;
+
 
 /*------------------ pattern type = 4------------------  
+0 
+1 0 
+2 1 0 
+3 2 1 0 
+4 3 2 1 0 
+
 int main(){
   int n;
   cin>>n;
@@ -145,7 +165,13 @@ while(i<=n){
 }
 }*/
 
-/*------------------ pattern type = 5------------------  
+/*------------------ pattern type = 5------------------
+ABCDE
+BCDEF
+CDEFG
+DEFGH
+EFGHI
+
 int main() {
   int n;
   cin>>n;
@@ -167,7 +193,13 @@ int main() {
   
 }*/
 
-/*------------------ pattern type = 6------------------  
+/*------------------ pattern type = 6------------------
+A
+BC
+CDE
+DEFG
+EFGHI
+  
 int main(){
 int n;
   cin>> n;
@@ -189,7 +221,13 @@ int n;
 }*/
 
 
-/*------------------ pattern type = 7------------------  
+/*------------------ pattern type = 7------------------ 
+    *
+   **
+  ***
+ ****
+*****
+ 
 int main(){
 int n;
   cin>> n;
@@ -212,8 +250,12 @@ int n;
 }*/
 
 /*------------------ pattern type = 8------------------  
-#include <iostream>
-using namespace std;
+*****
+ ****
+  ***
+   **
+    *
+
 int main(){
   int n;
   cin>>n;
@@ -238,8 +280,11 @@ int main(){
 
 
 /*------------------ pattern type = 9------------------ 
-#include <iostream>
-using namespace std;
+ 			   1
+  			  121
+  			 12321
+ 			1234321
+		       123454321
 int main(){
   int n;
   cin>>n;
