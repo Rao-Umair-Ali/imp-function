@@ -398,6 +398,7 @@ int main()
 3 4
 4 4
 
+
 #include <iostream>
 using namespace std;
 int main() {
@@ -409,3 +410,39 @@ for(int i =0;i<=5;i++){
 
 }
 }*/
+
+/*------------------leet code problem 1------------------
+Q1:Given an integer number n, return the difference between the product of its digits and the sum of its digits.
+
+class Solution {
+public:
+    int subtractProductAndSum(int n) {
+        int prod=1;
+int sum=0;
+while(n!=0){
+    int digit = n%10;
+    prod=prod*digit;
+    sum=sum+digit;
+    n=n/10;
+}
+int answer=prod-sum;
+return answer;
+    }
+};*/
+
+/*------------------leet code problem 1------------------
+Q2:Write a function that takes the binary representation of an unsigned integer and returns the number of '1' bits 
+
+class Solution {
+public:
+    int hammingWeight(uint32_t n) {
+       int sum=0;
+       while(n!=0){
+           if(n&1){
+               sum++;
+           }
+           n=n>>1;
+       } 
+       return sum;
+    }
+};*/
